@@ -32,11 +32,8 @@
 	</header>
 	<section class="container-fluid">
 		<div class="row">
-
 			<aside>
-				
-
-				<div id="slide" class="sidenav">
+				<div class="sidenav">
 					<ul class="nav nav-pills flex-column">
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
@@ -85,20 +82,53 @@
 
 				</div>
 			</aside>
+			
 			<div class="mainpage">
 				<div class="row">
 					<div class="col">
-						<h3 class="section-heading uppercase">Welcome to our page!</h3>
+						<ul class="breadcrumb">
+							<li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About us</a></li>
+							<li>Contact us</li>
+						</ul>
+						<h3 class="section-heading uppercase">Send us an enquiry</h3>
+						<p>* : required item</p>
 					</div>
 				</div>
-				<div class="row">
-					<img class="indeximg" src="assets/images/07.Dalahorse.jpg" alt="07.Dalahorse.jpg" height="395" width="704">
-				</div>
-				</div>
-			</div>
-	</section>
 
-	<footer>
+				<form class="message-form" action="https://formdump.codeinstitute.net/" method="post">
+					<label for="subject">Subject * : </label>
+					<select id="subject" name="subject" required>
+                        <option value selected disabled>Please select a type of subject.</option>
+                        <option value="General">General</option>
+                        <option value="Purchase">Purchase</option>
+                        <option value="Cooperation">Cooperation</option>
+                        <option value="Other">Other</option>
+                    </select>
+					<label for="name">Name * : </label>
+					<input class="text-input" type="text" id="name" name="name" required/>
+					<label for="email">Email * : </label>
+					<input class="text-input" type="email" id="email" name="email_address" required/>
+					<label for="language">Language : </label>
+					<select id="language" name="language">
+                        <option value selected disabled>Please select your preferred language.</option>
+                        <option value="English">English</option>
+                        <option value="Swedish">Swedish</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Japanese">Japanese</option>
+                    </select>
+					<label for="telephone">Telephone : </label>
+					<input type="text-input" id="telephone" name="telephone"/>
+					<label for="message">Message * : </label>
+					<textarea id="message" type="text" rows="5" name="message" value="both" required></textarea>
+					<button class="btn btn-info" type="submit" value="Submit">Send</button>
+					<button class="btn btn-warning" type="reset" value="Reset">Reset</button>
+
+				</form>
+			</div>
+		</div>
+	</section>
+    <footer>
 		<div id="footer-container">
 			<div class="social">
 				<h5 class="uppercase general-sub">Let's connect!</h5>
@@ -132,7 +162,6 @@
 			<div class="copyright">Copyright © 1986 - 2020 Swedish Wooden Sculpture</div>
 		</div>
 	</footer>
-
 </body>
 
 </html>

@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Alata|Trade+Winds&display=swap');
+
 /*--------------------------------------------body*/
 
 body{
     position:relative; 
-    width:980px; 
+    width:1120px;
     margin:0px auto;
 
 }
@@ -15,32 +17,74 @@ body{
     margin-left: auto;
 }
 
+
 section div aside{
     min-width: 110px;
     text-align: left;
+    font-family: 'Acme';
 }
 aside{
-    padding:20px 15px;
+    padding:20px 56px 40px 15px;
+    background-color: #fce6ff;
+    color:black;
+    font-family:  'Acme' ;
+    
 }
 
 aside ul li{
     
     min-width: 100px;
+    font-size: 20px;
 }
+
+aside ul li a{
+    color:#001854;
+}
+
+
+aside .mainmenu{
+    margin:0;
+    border-style: dashed;
+    border-color:#8642d4;
+
+    
+}
+
+aside ul li ul li{
+    font-size: 18px;
+}
+
+aside .submenu{
+    padding: 4px 16px 4px 16px;
+}
+
+aside ul li ul li a{
+    color: #001f6e;
+}
+
 /*--------------------------------------------Heading*/
 
-.heading{
+.col-md-8{
     background: url("../images/02.TitleBackground.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     text-align: center;
+    vertical-align: baseline;
+    padding: 30px;
 }
 
 header {
     margin: 0;
 }
 
+.name, .title{
+    font-family:  'Trade Winds' ;    
+}
+
+.name{
+    font-size: 45px;
+}
 
 .logo {
     background: url("../images/01.Logo.png");
@@ -49,9 +93,242 @@ header {
     background-size: cover;
     min-height: 200px;
     max-width: 200px;
+    padding: 10px;
 }
 
 /*--------------------------------------------mainpage : index.html*/
 .mainpage{
-    padding: 0px 10px 0px 75px;
+    padding: 20px 0px 0px 30px;
+    font-family: alata;
 }
+
+
+.breadcrumb{
+    padding: 0;
+    background-color: transparent;
+    font-family: acme;
+    font-size:14px;
+}
+
+.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">";
+}
+
+
+.mainpage table{
+    padding: 0px 0 0 0px;
+}
+
+.section-heading{
+    font-size: 30px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.mainpage .indeximg{
+    padding:30px 0 0 15px;
+}
+
+.mainpage table{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mainpage table p{
+    margin: 0px;
+    padding:5px 5px 5px 0px;
+}
+
+div .contents{
+    padding-right: 30px;
+}
+
+/*--------------------------------------------mainpage : gallery.html*/
+
+#gallery{
+    max-width: 700px;
+}
+
+#gallery ul li{
+    display: inline;
+}
+
+
+.gallery2{
+    max-width: 700px;
+}
+
+.thumbnail{
+    padding:0;
+}
+
+.inner{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.inner1{
+    
+display: block;
+margin: 0px;
+padding: 0px;
+position: relative;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+
+}
+
+
+
+
+/*
+.img-thumbnail{
+    max-width: 100%;
+    height: auto;
+    
+    float:none;
+    margin: auto;
+}
+
+.thumbnail>li{    
+    display: inline;
+}*/
+
+
+/*--------------------------------------------mainpage : Purchase.html, dalahorsegoods.html, roostergoods.html*/
+
+div.allgoods{
+    max-width: 700px;
+}
+
+div.goods{
+    margin: 2px;
+   vertical-align: top;
+    display: inline-block;
+    padding: 10px; 
+    text-align: center;
+}
+
+div.goods h6{
+   font-size: 15px;
+   text-align: center;
+}
+
+div.goods p{
+    text-align: left;
+    padding-left: 10px;
+   font-size: 12px;
+}
+
+span.webprice{
+    font-size: 14px;
+    font-weight: bold;
+    color:red;
+}
+
+
+div.contactinfo{
+    padding: 10px 0 0 0;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 300px;
+}
+
+.contactinfo p{
+    text-align: left;
+    font-family: 'Alata';
+    font-weight: bold;
+}
+
+.language li{
+    vertical-align: top;
+    display: inline-block;
+    padding:0 11px 0 0;
+}
+
+.message-form{
+    display: block;
+    text-align: center;
+    max-width: 680px;
+  
+}
+.message-form select, input{
+    width: 80%;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.message-form textarea{
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+
+.message-form label{
+    font-size: 15px;
+    margin-bottom: 2px;
+    width:15%;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+
+.message-link{
+    margin-top: 20px;
+    font-size : 25px;
+    border-bottom: 1px;
+    text-align: center;
+}
+
+option:disabled {
+    color: rgb(170, 170, 170);
+    /*-internal-light-dark-color(graytext, rgb(170, 170, 170));*/
+}
+
+/*--------------------------------------------footer*/
+
+footer{
+    padding: 20px;
+}
+
+.social{
+    text-align: center;
+}
+
+.copyright{
+    padding: 2px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.list-inline-item{
+    padding: 5px 15px 0px 15px;
+    font-size: 50px;
+}
+
+.list-inline-item a{
+    color: #014a00;
+}
+
+
+@media screen and (max-width: 768px) {
+    #gallery {
+        max-width: auto;
+     column-count:2;
+    }
+  }
+
+
+@media screen and (max-width: 576px) {
+    #gallery {
+    max-width: auto;
+     column-count:1;
+    }
+  }
