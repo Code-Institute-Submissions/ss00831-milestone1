@@ -73,7 +73,6 @@ aside .submenu{
 .wrapper {
     display: flex;
     width: 100%;
-    max-height: 450px;
     align-items: stretch;
 }
 
@@ -115,12 +114,6 @@ a[data-toggle="collapse"] {
     vertical-align: baseline;
     padding: 30px;
 }
-
-.col-md-8 .row a{
-    text-align: center;
-}
-
-
 
 header {
     margin: 0;
@@ -202,53 +195,60 @@ div .contents{
     padding-right: 30px;
 }
 
-
-/*--------------------------------------------mainpage : information.html, dalahorse.html, rooster.html*/
-.contentsbox{
-    max-width: 700px;
-}
-
-.contents{
-    display: inline-block;
-    max-width:600px;
-    max-height: auto;
-}
-
-#dalahorseinfopic{
-    max-width: 310px;
-    max-height: 310px;
-    border:0px;
-}
-
-
-#roosterinfopic{
-    max-width: 360px;
-    max-height: 260px;
-    border:0px;
-}
-
-
-#roosterpic{
-    max-width: 340px;
-    max-height: 340px;
-    border:0px;
-}
-
-#dalahorsepic{
-    max-width: 340px;
-    max-height: 340px;
-    border:0px;
-}
-
 /*--------------------------------------------mainpage : gallery.html*/
 
 #gallery{
     max-width: 700px;
 }
 
+#gallery ul li{
+    display: inline;
+}
+
+
+.gallery2{
+    max-width: 700px;
+}
+
 .thumbnail{
     padding:0;
 }
+
+.inner{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.inner1{
+    
+display: block;
+margin: 0px;
+padding: 0px;
+position: relative;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+
+}
+
+
+
+
+/*
+.img-thumbnail{
+    max-width: 100%;
+    height: auto;
+    
+    float:none;
+    margin: auto;
+}
+
+.thumbnail>li{    
+    display: inline;
+}*/
+
 
 /*--------------------------------------------mainpage : Purchase.html, dalahorsegoods.html, roostergoods.html*/
 
@@ -298,7 +298,7 @@ div.contactinfo{
 .language li{
     vertical-align: top;
     display: inline-block;
-    padding-right:11px;
+    padding:0 11px 0 0;
 }
 
 .message-form{
@@ -316,9 +316,6 @@ div.contactinfo{
 .message-form textarea{
     width: 80%;
     margin-bottom: 5px;
-    resize:none;
-    overflow-y: scroll;
-
 }
 
 
@@ -335,12 +332,8 @@ div.contactinfo{
 .message-link{
     margin-top: 20px;
     font-size : 25px;
+    border-bottom: 1px;
     text-align: center;
-}
-
-.message-link a{
-    color:orangered;
-    border-bottom: dotted 1px rgb(255, 196, 0);
 }
 
 option:disabled {
@@ -400,11 +393,13 @@ footer{
 
 
     #gallery {
-     width: 630px;
+        max-width: auto;
+     column-count:2;
     }
 
-    .no-gutters{
-        margin-bottom: -45px;
+    aside{
+        padding : 0;
+
     }
 
     #sidebarCollapse{
@@ -459,25 +454,16 @@ footer{
     }
 
     #content{
+        background-color: white;
         padding: 0px;
     }
-    
-    .aboutus div{
-        display: inline;
-    }
+  }
 
-    .message-form label, option, select, input{
-        height: 80%;
-        width:80%;
-    }
-    .message-form textarea{
-        width:80%;
-    }
-}
-@media screen and (max-width: 575.98px) {
+
+@media screen and (max-width: 576px) {
     #gallery {
-    width: 400px;
-     column-count:2;
+    max-width: auto;
+     column-count:1;
     }
 
     .col-sm-12{
@@ -488,37 +474,6 @@ footer{
     font-size: 20px;
     }
     
-    #dalahorseinfopic{
-    max-width: 75%;
-    max-height: 75%;
-    }
-
-
-    #roosterinfopic{
-    max-width: 75%;
-    max-height: 75%;
-    }
-
-    .contentsbox{
-        display: block;
-    }
-    
-#dalahorseinfopic, #roosterinfopic,#roosterpic,#dalahorsepic{
-    max-width: 75%;
-    max-height: 75%;
-}
-
-p.contents{
-    font-size: 80%;
-}
-
-.contentsbox > p{
-    display: block;
-}
-
-.social ul>li { 
-    font-size: 35px;
-}
   }
 
 
