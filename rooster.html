@@ -11,7 +11,6 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 	<script src="https://kit.fontawesome.com/fdc5880dc5.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<!-- Font awesome-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"
@@ -23,106 +22,91 @@
 </head>
 
 <body>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-	<!-- jQuery CDN - Slim version (=without AJAX) -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
-	<!-- Popper.JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-		integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
-	</script>
-
 
 	<header>
 		<div class="row no-gutters">
-			<a class="col-md-4 logo" href="index.html"></a>
-			<div class="col-md-8 col-sm-12">
+			<div class="col-md-12 col-sm-12">
 				<div class="row">
 					<div class="col heading">
-						<h1 class="name">Swedish Wooden Sculpture</h1><br>
-						<h4 class="title">since 1986</h4>
+						<div class="heading-box">
+							<h1 class="name">Swedish Wooden Sculpture</h1><br>
+							<h4 class="title">since 1986</h4>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html"><i class="fas fa-horse-head" aria-hidden="true"></i><span class="sr-only">Homemenu</span></a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+			<div class="collapse navbar-collapse" id="navbarToggler01">
+				<ul class="navbar-nav  mr-auto mt-2 mt-lg-0">
+					<li class="nav-item ">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="information.html" id="infomationmenu" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Story
+						</a>
+						<div class="dropdown-menu" aria-labelledby="infomationmenu">
+
+							<a class="dropdown-item" href="information.html">Information</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="dalahorse.html">Dala horse</a>
+							<a class="dropdown-item" href="rooster.html">Rooster</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="allgoods.html" id="purchasemenu" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Purchase
+						</a>
+						<div class="dropdown-menu" aria-labelledby="purchasemenu">
+
+							<a class="dropdown-item" href="allgoods.html">All goods</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="dalahorsegoods.html">Dala horse</a>
+							<a class="dropdown-item" href="roostergoods.html">Rooster</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="aboutus.html" id="aboutusmenu" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							About us
+						</a>
+						<div class="dropdown-menu" aria-labelledby="aboutusmenu">
+							<a class="dropdown-item" href="aboutus.html">Our store</a>
+							<a class="dropdown-item" href="contactus.html">Contact us</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+        
+        
 	</header>
+
+
 	<section class="container-fluid">
 		<div class="row">
-
-			<aside>
-				<div class="wrapper">
-					<!-- Sidebar -->
-					<nav id="sidebar">
-						<ul class="list-unstyled components">
-							<li class="active">
-								<a class="mainmenu" href="index.html">Home</a>
-								<hr class="menuborder">
-							</li>
-							<li>
-								<a class="mainmenu" href="information.html" data-toggle="collapse"
-									aria-expanded="true">Information</a>
-								<ul class="collapse list-unstyled show" id="infoSubmenu">
-									<li>
-										<a class="submenu" href="dalahorse.html">Dala horse</a>
-									</li>
-									<li>
-										<a class="submenu" href="rooster.html">Rooster</a>
-									</li>
-								</ul>
-								<hr class="menuborder">
-							</li>
-							<li>
-								<a class="mainmenu" href="gallery.html">Gallery</a>
-								<hr class="menuborder">
-							</li>
-							<li>
-								<a class="mainmenu" href="allgoods.html" data-toggle="collapse"
-									aria-expanded="true">Purchase</a>
-								<ul class="collapse list-unstyled show" id="purchaseSubmenu">
-									<li>
-										<a class="submenu" href="dalahorsegoods.html">Dala horse</a>
-									</li>
-									<li>
-										<a class="submenu" href="roostergoods.html">Rooster</a>
-									</li>
-								</ul>
-								<hr class="menuborder">
-							</li>
-							<li>
-								<a class="mainmenu" href="aboutus.html" data-toggle="collapse"
-									aria-expanded="true">About us</a>
-								<ul class="collapse list-unstyled show" id="aboutSubmenu">
-									<li>
-										<a class="submenu" href="aboutus.html">Our store</a>
-									</li>
-									<li>
-										<a class="submenu" href="contactus.html">Contact us</a>
-									</li>
-								</ul>
-							</li>
-
-						</ul>
-
-					</nav>
-					<!-- Page Content -->
-					<div id="content">
-
-						<nav class="navbar navbar-expand-lg navbar-light">
-							<div class="container-fluid">
-
-								<button type="button" id="sidebarCollapse" class="btn btn-info">
-                    <i class="fas fa-align-left"></i>
-                    <span></span>
-                </button>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</aside>
 			<div class="mainpage">
+                <div class="mainpage">
 				<div class="row">
 					<div class="col">
 						<ul class="breadcrumb">
@@ -135,7 +119,7 @@
 				</div>
 
 				<div class="contentsbox">
-					<p class="contents">
+					<p class="contents" id="texts2">
 						The wooden roosters are not as old as the Dala horses but their history goes back at
 						least to 1760.
 						During the late 1880s they become more popular. Roosters are painted in the same Curbits
@@ -152,6 +136,8 @@
 						<img id="roosterpic" src="assets/images/16.Rooster.jpg" alt="16.Rooster.jpg">
 					</p>
 				</div>
+			</div>
+
 			</div>
 		</div>
 	</section>
@@ -190,16 +176,7 @@
 			<div class="copyright">Copyright © 1986 - 2020 Swedish Wooden Sculpture</div>
 		</div>
 	</footer>
-	<script>
-		$(document).ready(function () {
 
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
-
-});
-    
-	</script>
 </body>
 
 </html>

@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Alata|Trade+Winds&display=swap');
 
-/*--------------------------------------------body*/
+/*-------------------------------------------- body --*/
 
 body{
     position:relative; 
-
     margin:0px auto;
     width: 1080px;
 
-}
-
-
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
 }
 
 .container {
@@ -25,102 +17,74 @@ a, a:hover, a:focus {
     margin-left: auto;
 }
 
-
-/*--------------------------------------------aside*/
-
-
-section div aside{
-    text-align: left;
-    font-family: 'Acme';
-}
-aside{
-    padding : 20px 0px 40px 0px;
-    background-color: #fce6ff;
-    color:black;
-    font-family:  'Acme' ;    
-}
-
-aside ul li{    
-    min-width: 100px;
-    font-size: 20px;
-}
-
-aside .menuborder{
-    margin-top:8px;
-    margin-bottom: 8px;
-    border-style: dashed;
-    border-color:#8642d4;    
-}
-
-aside .mainmenu{
-    color:#001854;
-    font-size: 20px;
-    padding: 16px 0px 16px 8px;
-}
-
-aside .submenu{
-    font-size: 18px;
-    margin-left: 16px;
-    padding: 8px 0px 8px 8px;
-    color: #001f6e;
-}
-
-#sidebarCollapse{
-    visibility: hidden;
-}
-
-
-.wrapper {
-    display: flex;
-    width: 100%;
-    max-height: 450px;
-    align-items: stretch;
-}
+/*-------------------------------------------- Navbar (Menu) -- */
 
 .navbar{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-#sidebar {
-    min-width: 130px;
-    max-width: 130px;
-    min-height: 100vh;
-    padding-left: 15px;
     
+    background-color:#fdf0ff;
 }
-/*
-#sidebar.active {
-    margin-left: -180px;
-}*/
+
+.navbar-nav{
+    color:#001854;
+    font-family:  'Acme' ;
+    font-size: 22px;
+}
+
+.navbar-toggler { 
+    margin-left: 20px;
+            border-color: #001854; 
+            
+        } 
+        
+.navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 24, 84, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+
+.navbar-nav .nav-link {
+    color: #001854;
+}
+
+
+.navbar-brand{
+    margin-left:30px;
+}
+
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.svg-inline--fa {
+    font-size: 35px;
+    color:green;
+}
 
 a[data-toggle="collapse"] {
     position: relative;
 }
 
-#content{
-    padding: 0;
+
+
+/*-------------------------------------------- Heading --*/
+
+.heading div{
+    display: inline-block;
 }
 
-
-/*--------------------------------------------Heading*/
-
-.col-md-8{
-    background: url("../images/02.TitleBackground.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
+.col-md-12{
+    background-image: url("../images/01.Logo.png"),url("../images/02.TitleBackground.png");
+    background-position: 35px,center;
+    background-repeat: no-repeat,no-repeat;
+    background-size:12%, cover;
     text-align: center;
     vertical-align: baseline;
     padding: 30px;
 }
 
-.col-md-8 .row a{
+.col-md-12 .row a{
     text-align: center;
 }
-
-
 
 header {
     margin: 0;
@@ -134,17 +98,8 @@ header {
     font-size: 45px;
 }
 
-.logo {
-    background: url("../images/01.Logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    max-width: 200px;
-    padding: 10px;
-}
 
-/*--------------------------------------------mainpage : index.html*/
+/*--------------------------------------------mainpage -- */
 .mainpage{
     padding: 20px 0px 0px 30px;
     font-family: alata;
@@ -171,31 +126,21 @@ header {
 }
 
 
-.mainpage table{
-    padding: 0px 0 0 0px;
-}
-
 .section-heading{
     font-size: 30px;
     font-style:italic;
     font-weight:bold;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
+
+
+/*-------------------------------------------- mainpage : index.html -- */
 
 .mainpage .indeximg{
     padding:20px 0 0 15px;
-    height: 393px;
-    width: 700px;
-}
-
-.mainpage table{
-    margin: 0px;
-    padding: 0px;
-}
-
-
-.mainpage table p{
-    margin: 0px;
-    padding:5px 5px 5px 0px;
+    height: 467px;
+    width: 832px;
 }
 
 div .contents{
@@ -203,90 +148,113 @@ div .contents{
 }
 
 
-/*--------------------------------------------mainpage : information.html, dalahorse.html, rooster.html*/
-.contentsbox{
-    max-width: 700px;
-}
+/*-------------------------------------------- mainpage : information.html, dalahorse.html, rooster.html -- */
 
 .contents{
     display: inline-block;
-    max-width:600px;
-    max-height: auto;
+    max-width:480px;
 }
 
 #dalahorseinfopic{
-    max-width: 310px;
-    max-height: 310px;
+    max-width: 400px;
+    max-height: 400px;
     border:0px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 
 #roosterinfopic{
-    max-width: 360px;
-    max-height: 260px;
+    max-width: 500px;
+    max-height: 400px;
     border:0px;
 }
 
-
 #roosterpic{
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 480px;
+    max-height: 400px;
     border:0px;
 }
 
 #dalahorsepic{
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 450px;
+    max-height: 450px;
     border:0px;
 }
 
-/*--------------------------------------------mainpage : gallery.html*/
+/*--------------------------------------------mainpage : gallery.html -- */
 
-#gallery{
-    max-width: 700px;
+.card-columns{
+    margin-top:20px;
+    column-count:auto;
 }
 
-.thumbnail{
-    padding:0;
+.card-columns .card {
+    width: 310px;
+    height: 260px;   
+    border:none;
+    margin-right: 20px;
 }
+
+.card img{
+    width: 300px;
+    height: 250px;   
+}
+
 
 /*--------------------------------------------mainpage : Purchase.html, dalahorsegoods.html, roostergoods.html*/
 
-div.allgoods{
-    max-width: 700px;
-}
-
 div.goods{
-    margin: 2px;
-   vertical-align: top;
+    margin-left:10px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    vertical-align: top;
     display: inline-block;
     padding: 10px; 
     text-align: center;
 }
 
 div.goods h6{
-   font-size: 15px;
+    margin-top: 8px;
+   font-size: 20px;
    text-align: center;
 }
 
 div.goods p{
     text-align: left;
-    padding-left: 10px;
-   font-size: 12px;
+    padding-left: 20px;
+   font-size: 14px;
 }
 
 span.webprice{
-    font-size: 14px;
+    font-size: 18px;
+    padding-left: 5px;
     font-weight: bold;
     color:red;
+
 }
+
+div.goods img{
+    width:180px;
+    height: 180px;
+}
+
+div.goods button{
+    width:88px;
+    height: 50px;
+    font-size: 16px;
+}
+
+
+/*--------------------------------------------mainpage : aboutus.html -- */
 
 
 div.contactinfo{
     padding: 10px 0 0 0;
     vertical-align: top;
     display: inline-block;
-    max-width: 300px;
+    max-width: 550px;
+    margin-right: 40px;
 }
 
 
@@ -296,19 +264,15 @@ div.contactinfo{
     font-weight: bold;
 }
 
-#contactmap{
-    max-width: 380px;
+.contactinfo p>.svg-inline--fa{
+    font-size:25px;
 }
+
 
 #mapimg{
         width:100%;
         height: auto;
     }
-
-
-
-    
-
 
 .language li{
     vertical-align: top;
@@ -316,40 +280,41 @@ div.contactinfo{
     padding-right:11px;
 }
 
+
+/*--------------------------------------------mainpage : contactus.html -- */
+
+
 .message-form{
     display: block;
     text-align: center;
-    max-width: 680px;
-  
+    margin-right: 35px;
 }
 .message-form select, input{
     width: 80%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     display: inline-block;
+    height: 32px;
 }
 
 .message-form textarea{
     width: 80%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     resize:none;
     overflow-y: scroll;
 
 }
 
-
 .message-form label{
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 2px;
-    width:15%;
+    width:12%;
     text-align: left;
     vertical-align: top;
 }
 
-
-
 .message-link{
-    margin-top: 20px;
-    font-size : 25px;
+    margin-top: 50px;
+    font-size : 30px;
     text-align: center;
 }
 
@@ -360,12 +325,12 @@ div.contactinfo{
 
 option:disabled {
     color: rgb(170, 170, 170);
-    /*-internal-light-dark-color(graytext, rgb(170, 170, 170));*/
 }
 
-/*--------------------------------------------footer*/
+/*-------------------------------------------- footer --*/
 
 footer{
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -388,54 +353,74 @@ footer{
     color: #014a00;
 }
 
-
 @media screen and (max-width: 991.98px) {
-    #sidebar.active {
-        margin-left: 0;
-        padding-right:10px;
+    .navbar-brand{
+        display: none;
     }
-    
-    #content{
-        padding-right:30px;
-    }
+
 }
 
 
-
-@media screen and (max-width: 768.01px) {
+@media screen and (max-width: 767.98px) {
 
     body{
         width: auto;
     }
 
+    /*-------------------------------------------- index.html -- */
 
-    .mainpage{
-        width:70%;
+    .mainpage .indeximg{
+        width:80%;
+        height: auto;
+    }
+    
+    /*-------------------------------------------- rooster.html -- */
+    #roosterinfopic{
+        margin-left: 35px;
+        margin-top: 35px;
     }
 
 
-    #gallery {
-     width: 630px;
-    }
-
-    .no-gutters{
-        margin-bottom: -45px;
-    }
-
-    #sidebarCollapse{
-    visibility:visible;
+    #texts1, #texts2{
+        width:max-content;
     }
 
 
-    #sidebar {
-        margin-left: -130px;
-    }
 
-    .logo{
-        max-height: 0px;
-        max-width: 0px;
-    }
+    
+/*--------------------------------------------mainpage : gallery.html -- */
 
+
+.card-columns .card {
+    width: 250px;
+    height: 260px;   
+    margin-right: 20px;
+}
+
+.card img{
+    width: 240px;
+    height: 200px;   
+}
+
+
+
+
+
+    /*-------------------------------------------- heading -- */
+
+
+    .col-md-12{
+
+    background-image: url("../images/01.Logo.png"),url("../images/02.TitleBackground.png");
+    background-position: 15px,center;
+    background-repeat: no-repeat,no-repeat;
+    background-size:12%, cover;
+    text-align: center;
+    vertical-align: baseline;
+    padding: 30px;
+    max-width:100%;
+    max-height: auto;
+}
     .name{
     font-size: 30px;
     }
@@ -444,10 +429,11 @@ footer{
         font-size: 16px;
     }
 
+
+    /*-------------------------------------------- footer -- */
     #footer-container{
         width:auto;
     }
-
 
     .social{
         width:auto;
@@ -460,35 +446,17 @@ footer{
     font-size: 7px;
     }
 
-    .col-md-8{
-    text-align: center;
-    vertical-align: baseline;
-    padding: 30px;
-    height: 50%;
-    width: -webkit-fill-available;
-    }
-
-    .mainpage .indeximg{
-        width:100%;
-        height: auto;
-    }
-
-    #content{
-        padding: 0px;
-    }
-    
+    /*-------------------------------------------- aboutus.html -- */
     .aboutus div{
         display: inline;
     }
 
-
-#mapimg{
+    #mapimg{
         width:80%;
         height: auto;
     }
 
-
-
+    /*-------------------------------------------- contactus.html -- */
     .message-form label, option, select, input{
         height: 80%;
         width:80%;
@@ -498,69 +466,91 @@ footer{
     }
 }
 
+    
+    .message-form{
+    margin-right: 0px;
+}
+
 @media screen and (max-width: 575.98px) {
-    #gallery {
-    width: 400px;
-     column-count:2;
+    .mainpage{
+        padding-top: 6px;
+        padding-left:10px;
     }
 
-    .col-sm-12{
-        width: -webkit-fill-available;
-        
-    }
-
+    /* --------------- heading ----- */
     .section-heading{
     font-size: 20px;
     }
+
+    .name{
+    font-size: 24px;
+    }
     
+    .col-md-12{
+
+    background-image: url("../images/02.TitleBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+    /* --------------- information.html, dalahorse.html, rooster.html ----- */
     .contentsbox{
         display: block;
     }
     
-    #dalahorseinfopic, #roosterinfopic,#roosterpic,#dalahorsepic{
-    max-width: 75%;
-    max-height: 75%;
-}
-
-p.contents{
-    font-size: 80%;
-}
-
-.contentsbox > p{
-    display: block;
-}
-
-#mapimg{
-        width:100%;
-        height: auto;
-    }
-
-
-.social ul>li { 
-    font-size: 35px;
-}
-
-
-  }
-
-@media screen and (max-width: 420.02px) {
+#dalahorseinfopic,#roosterinfopic{
     
-    .name{
-    font-size: 24px;
-    }
-
-
-    .col-sm-12{
-        padding-bottom: 40px;
-    }
-
-
+    margin-left: 0px;
     
+    margin-right: 0px;
+}
+
+
+
+    #dalahorseinfopic, #roosterinfopic,#roosterpic, #dalahorsepic{
+        max-width: 95%;
+        max-height: 95%;
+    }
+
+
+    #texts1, #texts2{
+        width:auto;
+    }
+
+    .contentsbox > p{
+        display: block;
+    }
+
+    /*--------------------------------------------mainpage : gallery.html -- */
+
+
+
+.card-columns .card {
+    width: 280px;
+    height: 260px;   
+    border:none;
+    margin-right: 20px;
+}
+
+.card img{
+    width: 270px;
+    height: 230px;   
+}
+
+
+
+    /* --------------- aboutus.html ----- */
     #mapimg{
-        width:100%;
+        width:90%;
         height: auto;
     }
 
-  }
 
-
+    /* --------------- footer ----- */
+    .social ul>li { 
+        font-size: 35px;
+    }
+}
