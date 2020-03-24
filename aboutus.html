@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- bootstrap 4.4.1 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-	<script src="https://kit.fontawesome.com/fdc5880dc5.js" crossorigin="anonymous"></script>
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="assets/css/style.css" />
-	<!-- Font awesome-->
+	<!-- hover.css 2.3.1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
+	<!-- Font awesome 5.12.1 -->
+	<script src="https://kit.fontawesome.com/fdc5880dc5.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"
 		integrity="sha256-7zqZLiBDNbfN3W/5aEI1OX/5uvck9V0yhwKOA9Oe49M=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/solid.min.js"
@@ -22,6 +26,7 @@
 </head>
 
 <body>
+    <!-- For Navbar : https://getbootstrap.com/docs/4.4/components/navbar/ -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
@@ -45,24 +50,21 @@
 				</div>
 			</div>
 		</div>
+
+        <!-- Bootstrap Navbar : https://getbootstrap.com/docs/4.4/components/navbar/ -->
 		<nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-horse-head" aria-hidden="true"></i><span class="sr-only">Homemenu</span></a>
-			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <a class="navbar-brand" href="index.html"><i class="fas fa-horse-head" aria-hidden="true"></i><span class="sr-only">Homemenu</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarToggler01">
 				<ul class="navbar-nav  mr-auto mt-2 mt-lg-0">
 					<li class="nav-item ">
 						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 					</li>
-
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="information.html" id="infomationmenu" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Story
-						</a>
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Story</a>
 						<div class="dropdown-menu" aria-labelledby="infomationmenu">
-
 							<a class="dropdown-item" href="information.html">Information</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="dalahorse.html">Dala horse</a>
@@ -78,7 +80,6 @@
 							Purchase
 						</a>
 						<div class="dropdown-menu" aria-labelledby="purchasemenu">
-
 							<a class="dropdown-item" href="allgoods.html">All goods</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="dalahorsegoods.html">Dala horse</a>
@@ -99,7 +100,6 @@
 			</div>
 		</nav>
 	</header>
-
 
 	<section class="container-fluid">
 		<div class="row">
@@ -125,29 +125,26 @@
 						</p>
 						<p><i style="color:#4298f5;" class="fas fa-envelope-open-text" aria-hidden="true"></i>
 							 songhei_831.lee@hotmail.com</p>
-						<p><i style="color:#6737a6;" class="fas fa-globe" aria-hidden="true"></i>  We speak...
-							<ul class="language">
+						<p><i style="color:#6737a6;" class="fas fa-globe" aria-hidden="true"></i>  We speak...</p>
+							<ul class="language"> <!-- icon : 4 Flag icons:GoSquared, http://gosquared.com / https://www.iconspedia.com/pack/242-flags-icons-4146/ -->
 								<li><img src="assets/images/United-Kingdom-64.png" alt="ENG" height="35" width="35"></li>
 								<li><img src="assets/images/Sweden-64.png" alt="SWE" height="35" width="35"></li>
 								<li><img src="assets/images/South-Korea-64.png" alt="KOR" height="35" width="35"></li>
 								<li><img src="assets/images/Japan-64.png" alt="JPN" height="35" width="35"></li>
 							</ul>
-						</p>
+						
 					</div>
+                    <!-- Google Maps captured image, I will try to use Google Maps with Javascript later. -->
+                    <!-- Marker icon on the map image: Carlosjj, http://carlosjj.deviantart.com / https://www.iconspedia.com/icon/base-map-icon-41522.html-->
 					<div class="contactinfo" id="contactmap">
 						<img id="mapimg" src="assets/images/Map.jpg" alt="Map"/>
-
 					</div>
 					</div>
 					<div class="message-link">
 						<p><a href="contactus.html">Message us!</a></p>
 					</div>
-
 				</div>
-
 				</div>
-
-
 			</div>
 	</section>
 
@@ -185,7 +182,5 @@
 			<div class="copyright">Copyright © 1986 - 2020 Swedish Wooden Sculpture</div>
 		</div>
 	</footer>
-
 </body>
-
 </html>

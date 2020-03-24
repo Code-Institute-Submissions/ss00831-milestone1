@@ -29,7 +29,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
  
 ### Existing Features
 - Information : About Dalahorse and Rooster. Everyone can watch the information.
-- Gallery : Pictures of Dalahorse and Rooster. Everyone can watch the pictures.
+- Story : Pictures and information of Dalahorse and Rooster. Everyone can watch the pictures.
 - Purchase : Goods of Dalahorse and Rooster. Everyone can watch the goods.
 - Owner information : About the contact information and the location of the store. Everyone can check the information.
 - Message : Anyone who is interested in a sculpture or cooperation or has some questions can send an inquiry.
@@ -55,6 +55,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 - Google font (https://fonts.google.com/)
 - Github (https://github.com/)
 - Gitpod (https://www.gitpod.io/)
+- Hover.css (https://css-tricks.com/almanac/selectors/h/hover/)
 
 
 ## Testing
@@ -102,7 +103,6 @@ git clone https://github.com/ss00831/Milestone1
 - The text for dalahorse.html : https://en.wikipedia.org/wiki/Dalecarlian_horse
 - The text for rooster.html : http://www.woodenhorsemuseumsweden.se/EN/roo.collection.en.html
 
-
 ### Media
 1. Logo image : https://dlpng.com/png/1855825
 2. Head background image : https://dlpng.com/png/6576348
@@ -136,3 +136,4 @@ git clone https://github.com/ss00831/Milestone1
 - Static collapsible Bootstrap sidebar menu : https://bootstrapious.com/p/bootstrap-sidebar
 - Hamburger menu : https://codepen.io/erikterwan/pen/EVzeRP
 - Cloning a repository : https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+- Resize image proportionally with CSS : https://www.geeksforgeeks.org/resize-image-proportionally-with-css/

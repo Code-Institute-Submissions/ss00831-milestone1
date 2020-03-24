@@ -24,6 +24,19 @@ body{
     background-color:#fdf0ff;
 }
 
+.dropdown-menu{
+    background-color:#fcf6ff;
+}
+
+.hvr-back-pulse{
+    background-color :#fcf6ff;
+}
+
+.dropdown-menu a:hover{
+    background-color : #caebdb;
+}
+
+
 .navbar-nav{
     color:#001854;
     font-family:  'Acme' ;
@@ -418,7 +431,7 @@ footer{
     vertical-align: baseline;
     padding: 30px;
     max-width:100%;
-    max-height: auto;
+    /*max-height: auto;*/
 }
     .name{
     font-size: 30px;
@@ -525,21 +538,17 @@ footer{
 
     /*--------------------------------------------mainpage : gallery.html -- */
 
-
-
-.card-columns .card {
+    .card-columns .card {
     width: 280px;
     height: 260px;   
     border:none;
     margin-right: 20px;
-}
+    }
 
-.card img{
+    .card img{
     width: 270px;
     height: 230px;   
-}
-
-
+    }
 
     /* --------------- aboutus.html ----- */
     #mapimg{

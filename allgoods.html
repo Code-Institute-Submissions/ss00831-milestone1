@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- bootstrap 4.4.1 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-	<script src="https://kit.fontawesome.com/fdc5880dc5.js" crossorigin="anonymous"></script>
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="assets/css/style.css" />
-	<!-- Font awesome-->
+	<!-- hover.css 2.3.1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
+	<!-- Font awesome 5.12.1 -->
+	<script src="https://kit.fontawesome.com/fdc5880dc5.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"
 		integrity="sha256-7zqZLiBDNbfN3W/5aEI1OX/5uvck9V0yhwKOA9Oe49M=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/solid.min.js"
@@ -21,6 +25,7 @@
 	<title>Swedish Wooden Sculpture Web Museum & Shop</title>
 </head>
 
+<!-- For Navbar -->
 <body>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -45,24 +50,21 @@
 				</div>
 			</div>
 		</div>
+
+        <!-- Bootstrap Navbar : https://getbootstrap.com/docs/4.4/components/navbar/ -->
 		<nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-horse-head" aria-hidden="true"></i><span class="sr-only">Homemenu</span></a>
-			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <a class="navbar-brand" href="index.html"><i class="fas fa-horse-head" aria-hidden="true"></i><span class="sr-only">Homemenu</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarToggler01">
 				<ul class="navbar-nav  mr-auto mt-2 mt-lg-0">
 					<li class="nav-item ">
 						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 					</li>
-
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="information.html" id="infomationmenu" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Story
-						</a>
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Story</a>
 						<div class="dropdown-menu" aria-labelledby="infomationmenu">
-
 							<a class="dropdown-item" href="information.html">Information</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="dalahorse.html">Dala horse</a>
@@ -74,11 +76,8 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="allgoods.html" id="purchasemenu" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Purchase
-						</a>
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Purchase</a>
 						<div class="dropdown-menu" aria-labelledby="purchasemenu">
-
 							<a class="dropdown-item" href="allgoods.html">All goods</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="dalahorsegoods.html">Dala horse</a>
@@ -87,9 +86,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="aboutus.html" id="aboutusmenu" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							About us
-						</a>
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
 						<div class="dropdown-menu" aria-labelledby="aboutusmenu">
 							<a class="dropdown-item" href="aboutus.html">Our store</a>
 							<a class="dropdown-item" href="contactus.html">Contact us</a>
@@ -98,10 +95,9 @@
 				</ul>
 			</div>
 		</nav>
-        
 	</header>
 
-
+    <!-- Images' sources : Please refer on the README.me file -->
 	<section class="container-fluid">
 		<div class="row">
 			<div class="mainpage">
@@ -113,7 +109,6 @@
 						</ul>
 						<h3 class="section-heading uppercase">All goods in our store</h3>
 					</div>
-
 				</div>
 				<div class="allgoods">
                     <div class="goods">
@@ -153,12 +148,8 @@
 						<button type="button" class="btn btn-secondary btn-sm">Sold out</button>
 					</div>
 				</div>
-
-
-
 			</div>
-
-			</div>
+        </div>
 	</section>
 
 	<footer>
@@ -195,7 +186,5 @@
 			<div class="copyright">Copyright © 1986 - 2020 Swedish Wooden Sculpture</div>
 		</div>
 	</footer>
-
 </body>
-
 </html>
