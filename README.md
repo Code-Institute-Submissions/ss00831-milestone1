@@ -7,11 +7,11 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 ### Preview
 - Desktop 
 
-![Capture_Desktop](https://user-images.githubusercontent.com/53374745/76595568-3c094c80-64fc-11ea-8a2c-6167c7f76785.PNG)
+![desktop_ver1 2](https://user-images.githubusercontent.com/53374745/77466148-22280d80-6e0a-11ea-948c-45560edbd082.PNG)
 
 - Mobile 
 
-![mobile](https://user-images.githubusercontent.com/53374745/76595569-3d3a7980-64fc-11ea-89af-fa6da9c91e82.png)
+![mobile_ver1 2](https://user-images.githubusercontent.com/53374745/77466153-23593a80-6e0a-11ea-95b0-cb3c836ea690.PNG)
 
 ### Usecase diagram
 ![Usecase](https://user-images.githubusercontent.com/53374745/76595465-f8aede00-64fb-11ea-9a6f-0246bb1391b4.png)
@@ -64,9 +64,9 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 - html (https://validator.w3.org/, Validate by URI) : No error
 - CSS (https://jigsaw.w3.org/css-validator/, Validate by direct input) : No error, 1 warning (line 1)
 
-2. Functional Test : All functional test cases (50 items) are passed.
-- Please see the result.
-[Testcases_Rev01](https://github.com/ss00831/Milestone1/blob/master/assets/Testing/Rev01_Testcases.xlsx)
+2. Functional Test : All functional test cases (53 items) : Pass.
+- Please refer the result.
+[Rev02_Testcases.xlsx](https://github.com/ss00831/Milestone1/files/4382093/Rev02_Testcases.xlsx)
 
 3. Main bug
 - Image resolution problem : iPhone and iPad (vertical mode) have a wrong image resolution on index.html
