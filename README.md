@@ -11,7 +11,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 - Mobile 
 
-![mobile_ver1 2](https://user-images.githubusercontent.com/53374745/77466153-23593a80-6e0a-11ea-95b0-cb3c836ea690.PNG)
+![mobile_ver1 2](https://user-images.githubusercontent.com/53374745/77622534-babfaa00-6f3e-11ea-8d26-1d271243d10f.PNG)
 
 ### Usecase diagram
 ![Usecase](https://user-images.githubusercontent.com/53374745/76595465-f8aede00-64fb-11ea-9a6f-0246bb1391b4.png)
