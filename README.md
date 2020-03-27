@@ -66,7 +66,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 2. Functional Test : All functional test cases (53 items) : Pass.
 - Please refer the result.
-[Rev02_Testcases.xlsx](https://github.com/ss00831/Milestone1/files/4385742/Rev02_Testcases.xlsx)
+[Rev02_Testcases.xlsx](https://github.com/ss00831/Milestone1/files/4393301/Rev02_Testcases.xlsx)
 
 
 ## Deployment
