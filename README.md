@@ -68,8 +68,6 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 - Please refer the result.
 [Rev02_Testcases.xlsx](https://github.com/ss00831/Milestone1/files/4385742/Rev02_Testcases.xlsx)
 
-3. Main bug
-- Image resolution problem : iPhone and iPad (vertical mode) have a wrong image resolution on index.html
 
 ## Deployment
 
