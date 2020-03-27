@@ -21,9 +21,9 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 
 ### Mockup
-- [Desktop](https://github.com/ss00831/Milestone1/blob/master/assets/mockup/MS1.pdf)
-- [Tablet](https://github.com/ss00831/Milestone1/blob/master/assets/mockup/MS1-tablet.pdf)
-- [Mobile](https://github.com/ss00831/Milestone1/blob/master/assets/mockup/MS1-mobile.pdf)
+- [Desktop](https://github.com/ss00831/Milestone1/blob/master/assets/mockup/ms1.pdf)
+- [Tablet](https://github.com/ss00831/Milestone1/blob/master/assets/mockup/ms1-tablet.pdf)
+- [Mobile](https://github.com/ss00831/Milestone1/blob/master/assets/mockup/ms1-mobile.pdf)
 
 ## Features
  
@@ -45,7 +45,6 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 - HTML5
 - CSS3 
-- Javascript
 
 ### Tools & Libraries
 - JQuery 3.3.1 (https://jquery.com)
@@ -66,7 +65,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 2. Functional Test : All functional test cases (53 items) : Pass.
 - Please refer the result.
-[Rev02_Testcases.xlsx](https://github.com/ss00831/Milestone1/files/4393301/Rev02_Testcases.xlsx)
+[Test Result] (https://github.com/ss00831/milestone1/blob/9ad696d9aa974c91f6a190f0c4fcff0d48a52342/assets/testing/rev02_testcases.xlsx)
 
 
 ## Deployment

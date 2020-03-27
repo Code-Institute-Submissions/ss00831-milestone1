@@ -59,7 +59,7 @@
      display: inline-block;
 }
  .col-md-12{
-     background-image: url("../images/01.Logo.png"),url("../images/02.TitleBackground.png");
+     background-image: url("../images/01.logo.png"),url("../images/02.titlebackground.png");
      background-position: 35px,center;
      background-repeat: no-repeat,no-repeat;
      background-size:12%, cover;
@@ -311,7 +311,7 @@
     }
     /*-------------------------------------------- heading -- */
      .col-md-12{
-         background-image: url("../images/01.Logo.png"),url("../images/02.TitleBackground.png");
+         background-image: url("../images/01.logo.png"),url("../images/02.titlebackground.png");
          background-position: 15px,center;
          background-repeat: no-repeat,no-repeat;
          background-size:12%, cover;
@@ -372,7 +372,7 @@
          font-size: 24px;
     }
      .col-md-12{
-         background-image: url("../images/02.TitleBackground.png");
+         background-image: url("../images/02.titlebackground.png");
          background-position: center;
          background-repeat: no-repeat;
          background-size:cover;
