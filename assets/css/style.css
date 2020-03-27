@@ -156,8 +156,8 @@ header {
 
 .mainpage .indeximg{
     padding:20px 0 0 15px;
-    height: 467px;
-    width: 832px;
+    height: 65%;
+    width: 65%;
 }
 
 div .contents{
@@ -387,7 +387,7 @@ footer{
 
     .mainpage .indeximg{
         width:80%;
-        height: auto;
+        height: 80%;
     }
     
     /*-------------------------------------------- rooster.html -- */
