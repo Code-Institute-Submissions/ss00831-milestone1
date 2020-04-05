@@ -58,6 +58,12 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 
 ## Testing
+0. Device / Browser spec
+- For functional testing
+![DeviceSpec](https://user-images.githubusercontent.com/53374745/78471437-90859d80-7731-11ea-8aa3-eeb39444b4eb.png)
+
+- For responsive & browser testing
+![Browserinfo](https://user-images.githubusercontent.com/53374745/78471438-911e3400-7731-11ea-947b-54b49b6080a5.png)
 
 1. Code validation
 - html (https://validator.w3.org/, Validate by URI) : No error
@@ -67,18 +73,22 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 - Please refer the result.
 [Test Result] (https://github.com/ss00831/milestone1/blob/9ad696d9aa974c91f6a190f0c4fcff0d48a52342/assets/testing/rev02_testcases.xlsx)
 
+3. Responsive Test
+
+4. Browser Test
+
 
 ## Deployment
 
-- My Milestone1 page address : https://ss00831.github.io/Milestone1/
+- My Milestone1 page address : https://ss00831.github.io/milestone1/
 
-- To deploy this page to GitHub Pages from its GitHub repository(https://github.com/ss00831/Milestone1):
+- To deploy this page to GitHub Pages from its GitHub repository(https://github.com/ss00831/milestone1):
 1. From the menu items near the top of the page, select [Settings].
 2. Scroll down to the [GitHub Pages] section.
 3. [Source] - click the drop-down menu labelled None - select [Master Branch].
 4. The page will automatically be refreshed, and the website is deployed.
 - If this step is failed, refresh the settings page and try again the "step 3".
-5. If the deployment is succeeded, you can see a message as "Your site is published at https://ss00831.github.io/Milestone1/". Try to retrieve the link to the deployed website.
+5. If the deployment is succeeded, you can see a message as "Your site is published at https://ss00831.github.io/milestone1/". Try to retrieve the link to the deployed website.
 
 - How to run this project locally
 
@@ -89,7 +99,7 @@ To clone this project from GitHub:
 4. (Optional) Change the current working directory to the location where you want the cloned directory to be made.
 5. Type "git clone", and then paste the URL you copied in Step 3.
 ```
-git clone https://github.com/ss00831/Milestone1
+git clone https://github.com/ss00831/milestone1
 ```
 6. Press Enter and check the directory where you located on Step 4.
 
@@ -101,9 +111,9 @@ git clone https://github.com/ss00831/Milestone1
 - The text for rooster.html : http://www.woodenhorsemuseumsweden.se/EN/roo.collection.en.html
 
 ### Media
-1. Logo image : https://dlpng.com/png/1855825
-2. Head background image : https://dlpng.com/png/6576348
-3. index.html main image : https://pixabay.com/sv/photos/dalah%C3%A4sten-figur-holzfigur-462160/
+1. Head background image : https://dlpng.com/png/6576348
+2. index.html main image : https://pixabay.com/sv/photos/dalah%C3%A4sten-figur-holzfigur-462160/
+3. index.html "ONSALE" logo image :  https://pixabay.com/sv/illustrations/klicka-tag-knappen-internet-web-978042/
 4. information.html images : https://dlpng.com/png/1281341, https://thumbs.worthpoint.com/zoom/images1/1/0215/17/vtg-dala-carved-wood-roosters-nils_1_ecdff0f8f140be3d1682eeec3fc4582e.jpg
 5. dalahorse.html image : https://www.publicdomainpictures.net/se/view-image.php?image=5734&picture=dalahastar&__cf_chl_jschl_tk__=a8efd2ddad2edec11bd6ec664c95e3fac1a72ac5-1582574969-0-AQ7a5qQXXFV13uEkobPTtv0LaZaR8dEO-3clqCq-7OGJoNxm-l1uwmw0XmJV-lqou316hWKHj7i0NoeXQaYrCzoGt67ihBSkQJan4MWxhJ0LvuZiSZGeT-oGUzxKjPfAf_Y3kFER5N13lHZ2q7kJiz1wq-DsplygLBnaqvMt5t664D9z5L9L3c_e8DcvDrlLFi5IO5a7755NVu2E-wcEFrFj3mGNiv94Y_pcQ65R9XWCKFSo2W-N1uLYB8oxstvlnMr2O1NDjFaowBLBrHwP1q9qctqk5Ak8X91idbg3McabNO_yvqBKjrhNu7m2FSGw1bF8TFPUNDQmzX_ZoVEIJ4I
 6. rooster.html image :  https://www.xn--vadrdenvrd-s5af.se/s/4598315/dalatuppar-4-st-nils-olsson/
@@ -127,6 +137,7 @@ git clone https://github.com/ss00831/Milestone1
  - 4 Flag icons:GoSquared, http://gosquared.com / https://www.iconspedia.com/pack/242-flags-icons-4146/
  - marker icon on the map image: Carlosjj, http://carlosjj.deviantart.com / https://www.iconspedia.com/icon/base-map-icon-41522.html
  - the map image : google maps capture
+
 
 ### Acknowledgements
 
