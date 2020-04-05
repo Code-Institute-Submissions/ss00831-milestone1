@@ -124,6 +124,10 @@
      width: 30%;
 }
 
+.col-md-2{
+    padding:0;
+}
+
 #salesmessage{
     text-align: center;
     font-family: acme;
@@ -347,7 +351,6 @@ div.card.goods{
     body {
         width: auto;
     }
-
 
 
     /* --------------- information.html, dalahorse.html, rooster.html ----- */
