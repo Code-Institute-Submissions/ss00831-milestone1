@@ -2,9 +2,14 @@
 /*-------------------------------------------- body --*/
  body{
      position:relative;
-     width:90%;
+     padding:0;
+     margin:0;
+     width:100%;
+     /*width:90%;
+     
+     
      margin-left:auto;
-     margin-right:auto;
+     margin-right:auto;*/
 }
  .container, .container-fluid {
      width: 100%;
@@ -339,6 +344,11 @@ div.card.goods{
      color: #014a00;
 }
  @media screen and (max-width: 991.98px) {
+    /*
+    body{
+        width:100%;
+    }
+*/
      .navbar-brand{
          display: none;
     }
@@ -347,11 +357,7 @@ div.card.goods{
 
 
  @media screen and (max-width: 768.02px) {
-
-    body {
-        width: auto;
-    }
-
+     
 
     /* --------------- information.html, dalahorse.html, rooster.html ----- */
     
