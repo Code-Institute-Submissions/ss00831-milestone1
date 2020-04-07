@@ -5,7 +5,7 @@
      padding:0;
      margin:0;
      width:100%;
-     overflow-x: hidden;
+     overflow-x: hidden;    
 }
  .container, .container-fluid {
      width: 100%;
@@ -64,10 +64,10 @@
      text-align: center;
      vertical-align: baseline;
      padding: 30px;
-}
+}/*
  .col-md-12 .row a{
      text-align: center;
-}
+}*/
  header {
      margin: 0;
 }
@@ -112,6 +112,8 @@
  .rightalign{
      text-align: right;
      padding-right:inherit;
+     color:#210852;
+     margin-bottom: 30px;
 }
 /*-------------------------------------------- mainpage : index.html -- */
  #indeximg{
@@ -147,7 +149,7 @@
 
 #salesmessage a{
     color: blue;
-    
+    font-size:20px;
 }
 
 #salesmessage .far{
@@ -187,11 +189,11 @@ div .contents{
     max-width:480px;
 }
 /*--------------------------------------------mainpage : gallery.html -- */
-
+/*
 #gallery{
     width: 100%;
 
-}
+}*/
 
  .card-columns{
      margin-top:20px;
@@ -272,10 +274,12 @@ div.card.goods{
  .contactinfo p{
      text-align: left;
      font-family: 'Alata';
-     font-weight: bold;
+     margin-bottom: 25px;
 }
  .contactinfo p>.svg-inline--fa{
      font-size:20px;
+     text-align: center;
+     margin-right: 10px;
 }
 
  .language li{
@@ -327,10 +331,15 @@ div.card.goods{
 
 /*-------------------------------------------- footer --*/
  footer{
-     margin-top: 50px;
-     padding: 20px;
+     margin-top: 80px;
+     padding:5px;
+	 text-align: center;
+    
+     background-color: #d1f0d9;
+
 }
  .social{
+     margin-top:30px;
      text-align: center;
 }
  .list-inline-item{
@@ -354,7 +363,9 @@ div.card.goods{
     /* --------------- information.html, dalahorse.html, rooster.html ----- */
  
    #texts1, #texts2{
-         font-size:13px;
+       margin-top:15px;
+       font-size:14px;
+         
     }
 
      .name{
@@ -363,10 +374,19 @@ div.card.goods{
      .title{
          font-size: 16px;
     }
+div.goods p{
+     font-size: 12px;
+}
+
     /*-------------------------------------------- footer -- */
      #footer-container{
          width:auto;
     }
+
+    footer{
+     margin-top: 290px;
+    }
+
      .social{
          width:auto;
          text-align: center;
@@ -421,14 +441,32 @@ div.card.goods{
     /* --------------- heading ----- */
      .section-heading{
          font-size: 24px;
+         padding: 0 1em 0 1em;
     }
      .name{
          font-size: 36px;
     }
 
+    .breadcrumb{
+        padding: 0 1em 0 1em;
+    }
+    .rightalign{
+        text-align: center;
+    }
+
     /* --------------- footer ----- */
+
+    
+    footer{
+     margin-top: 175px;
+    }
      .social ul>li {
          font-size: 35px;
     }
 }
- 
+ @media screen and (max-width: 576.02px) {
+     
+    footer{
+     margin-top: 80px;
+    }
+ }
