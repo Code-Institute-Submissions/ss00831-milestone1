@@ -7,11 +7,11 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 ### Preview
 - Desktop 
 
-![desktop_ver1 2](https://user-images.githubusercontent.com/53374745/77466148-22280d80-6e0a-11ea-948c-45560edbd082.PNG)
+![desktop](https://user-images.githubusercontent.com/53374745/78712714-524ad280-7919-11ea-86fa-8962d99c3c6f.PNG)
 
 - Mobile 
 
-![mobile_ver1 2](https://user-images.githubusercontent.com/53374745/77622534-babfaa00-6f3e-11ea-8d26-1d271243d10f.PNG)
+![mobile](https://user-images.githubusercontent.com/53374745/78712715-537bff80-7919-11ea-899c-c03cc68a02df.jpg)
 
 ### Usecase diagram
 ![Usecase](https://user-images.githubusercontent.com/53374745/76595465-f8aede00-64fb-11ea-9a6f-0246bb1391b4.png)
@@ -60,22 +60,33 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 ## Testing
 0. Device / Browser spec
 - For functional testing
-![DeviceSpec](https://user-images.githubusercontent.com/53374745/78471437-90859d80-7731-11ea-8aa3-eeb39444b4eb.png)
+
+    ![DeviceSpec](https://user-images.githubusercontent.com/53374745/78711907-0f3c2f80-7918-11ea-8ef7-98a3142a9a19.png)
 
 - For responsive & browser testing
-![Browserinfo](https://user-images.githubusercontent.com/53374745/78471438-911e3400-7731-11ea-947b-54b49b6080a5.png)
+
+    ![Browserinfo](https://user-images.githubusercontent.com/53374745/78711903-0ea39900-7918-11ea-815f-e8be0c3d0abc.png)
+
 
 1. Code validation
 - html (https://validator.w3.org/, Validate by URI) : No error
 - CSS (https://jigsaw.w3.org/css-validator/, Validate by direct input) : No error, 1 warning (line 1)
 
-2. Functional Test : All functional test cases (53 items) : Pass.
+2. Functional Test : All functional test cases (55 items) : Pass
 - Please refer the result.
-[Test Result] (https://github.com/ss00831/milestone1/blob/9ad696d9aa974c91f6a190f0c4fcff0d48a52342/assets/testing/rev02_testcases.xlsx)
+[Test Result] (https://github.com/ss00831/milestone1/blob/78eab6217695991c34319808f4df27698faca728/assets/testing/rev03_testcases.xlsx)
 
-3. Responsive Test
+3. Responsive & Browser Test
+- Pass condition :
+ 1. Must be resized to the image and content by the window sizes and resolutions
+ 1. All links need to work like the Full test 
+ 1. All images/contents/links must not be broken.
 
-4. Browser Test
+    ![resolutiontest](https://user-images.githubusercontent.com/53374745/78710444-ab186c00-7915-11ea-8dee-63a0416aeede.png)
+
+- Main issue : When the screen width is precisely 576 px, the goods images have a size problem on allgoods.html, dalahorsegoods.html, and roostergoods.html  as below.
+
+    ![bug576px](https://user-images.githubusercontent.com/53374745/78710295-67bdfd80-7915-11ea-914c-a38de61f6182.PNG)
 
 
 ## Deployment
