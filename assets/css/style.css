@@ -5,7 +5,7 @@
      padding:0;
      margin:0;
      width:100%;
-     overflow-x: hidden;    
+     overflow-x: hidden;
 }
  .container, .container-fluid {
      width: 100%;
@@ -64,10 +64,11 @@
      text-align: center;
      vertical-align: baseline;
      padding: 30px;
-}/*
- .col-md-12 .row a{
+}
+/* .col-md-12 .row a{
      text-align: center;
-}*/
+}
+*/
  header {
      margin: 0;
 }
@@ -86,9 +87,7 @@
      margin-left:auto;
      margin-right:auto;
 }
-
-
-  .breadcrumb{
+ .breadcrumb{
      padding: 0;
      background: none;
      font-family: acme;
@@ -117,63 +116,51 @@
 }
 /*-------------------------------------------- mainpage : index.html -- */
  #indeximg{
-    
      height: 100%;
      width: 100%;
 }
-
-#onsale{
+ #onsale{
      height: 30%;
      width: 30%;
 }
-
-.index{
-    padding-left:20px;
-    padding-right:0;
+ .index{
+     padding-left:20px;
+     padding-right:0;
 }
-
-#salesmessage{
-    text-align: center;
-    font-family: acme;
-    font-weight: bold;
-    font-size: 18px;
-    border-style: dashed;
-    color: purple;
-    padding:10px;
+ #salesmessage{
+     text-align: center;
+     font-family: acme;
+     font-weight: bold;
+     font-size: 18px;
+     border-style: dashed;
+     color: purple;
+     padding:10px;
 }
-
-
-#salesmessage img{
-    margin-top:10px;
+ #salesmessage img{
+     margin-top:10px;
 }
-
-#salesmessage a{
-    color: blue;
-    font-size:20px;
+ #salesmessage a{
+     color: blue;
+     font-size:20px;
 }
-
-#salesmessage .far{
-    font-size:30px;
-    color: orangered;
+ #salesmessage .far{
+     font-size:30px;
+     color: orangered;
 }
-
-div .contents{
+ div .contents{
      padding-right: 30px;
 }
-
 /*-------------------------------------------- mainpage : information.html, dalahorse.html, rooster.html -- */
  .contents{
      display: inline-block;
-    }
-
-
+}
  #dalahorseinfopic{
      width: 90%;
      height: 90%;
      border:0px;
 }
  #roosterinfopic{
-    width: 90%;
+     width: 90%;
      height: 90%;
      border:0px;
 }
@@ -184,46 +171,32 @@ div .contents{
      border:0px;
      padding: 0;
 }
-
-#texts1, #texts2{
-    max-width:480px;
+ #texts1, #texts2{
+     max-width:480px;
 }
 /*--------------------------------------------mainpage : gallery.html -- */
-/*
-#gallery{
-    width: 100%;
-
-}*/
-
  .card-columns{
      margin-top:20px;
      column-count:auto;
-
 }
  .card-columns .card {
      width: 310px;
      height: 260px;
      margin-right: 20px;
-     
 }
-
-.card{
-    border: none;
-    
+ .card{
+     border: none;
      margin-bottom: 30px;
 }
-
  .card img{
      width: 98%;
      height: 270px;
-
      display: block;
-    margin-left: auto;
-    margin-right: auto;
+     margin-left: auto;
+     margin-right: auto;
 }
 /*--------------------------------------------mainpage : Purchase.html, dalahorsegoods.html, roostergoods.html*/
  div.goods{
-    
      margin-bottom: 40px;
      vertical-align: top;
      display: inline-block;
@@ -235,26 +208,20 @@ div .contents{
      font-size: 18px;
      text-align: center;
 }
-
-div.card.goods{
-    column-count:auto;
+ div.card.goods{
+     column-count:auto;
 }
-
-
  div.card.goods img{
      width: 75%;
      height:auto;
      display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
+     margin-left: auto;
+     margin-right: auto;
+     vertical-align: middle;
 }
-.card-body{
-    padding:0;
+ .card-body{
+     padding:0;
 }
-
-
-
  div.goods p{
      text-align: center;
      padding-left: 20px;
@@ -277,11 +244,11 @@ div.card.goods{
      margin-bottom: 25px;
 }
  .contactinfo p>.svg-inline--fa{
+     color: #513470;
      font-size:20px;
      text-align: center;
      margin-right: 10px;
 }
-
  .language li{
      vertical-align: top;
      display: inline-block;
@@ -322,21 +289,15 @@ div.card.goods{
      color:orangered;
      border-bottom: dotted 1px rgb(255, 196, 0);
 }
- 
  option:disabled {
      color: rgb(170, 170, 170);
 }
-
-
-
 /*-------------------------------------------- footer --*/
  footer{
      margin-top: 80px;
      padding:5px;
-	 text-align: center;
-    
+     text-align: center;
      background-color: #d1f0d9;
-
 }
  .social{
      margin-top:30px;
@@ -354,39 +315,28 @@ div.card.goods{
          display: none;
     }
 }
-
-
-
  @media screen and (max-width: 768.02px) {
-     
-
     /* --------------- information.html, dalahorse.html, rooster.html ----- */
- 
-   #texts1, #texts2{
-       margin-top:15px;
-       font-size:14px;
-         
+     #texts1, #texts2{
+         margin-top:15px;
+         font-size:14px;
     }
-
      .name{
          font-size: 40px;
     }
      .title{
          font-size: 16px;
     }
-div.goods p{
-     font-size: 12px;
-}
-
+     div.goods p{
+         font-size: 12px;
+    }
     /*-------------------------------------------- footer -- */
      #footer-container{
          width:auto;
     }
-
-    footer{
-     margin-top: 290px;
+     footer{
+         margin-top: 290px;
     }
-
      .social{
          width:auto;
          text-align: center;
@@ -400,21 +350,14 @@ div.goods p{
      .aboutus div{
          display: inline;
     }
-
-    
+}
  @media screen and (max-width: 767.98px) {
-         
-    #salesmessage{
-        width:46%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:15px;
+     #salesmessage{
+         width:46%;
+         margin-left:auto;
+         margin-right:auto;
+         margin-top:15px;
     }
-
- }
-
-
-
     /*-------------------------------------------- contactus.html -- */
      .message-form label, option, select, input{
          height: 80%;
@@ -423,17 +366,14 @@ div.goods p{
      .message-form textarea{
          width:80%;
     }
-    .message-form{
-     margin-right: 0px;
+     .message-form{
+         margin-right: 0px;
     }
 }
- 
-
  @media screen and (max-width: 576.02px) {
      body {
-        width: auto;
+         width: auto;
     }
-
      .mainpage{
          padding-top: 6px;
          padding-left:10px;
@@ -446,27 +386,27 @@ div.goods p{
      .name{
          font-size: 36px;
     }
-
-    .breadcrumb{
-        padding: 0 1em 0 1em;
+     .breadcrumb{
+         padding: 0 1em 0 1em;
     }
-    .rightalign{
-        text-align: center;
+     .rightalign{
+         text-align: center;
     }
-
+    /* --------------- gallery.html ----- */
+     .card img{
+         min-width: 220px;
+         height: auto;
+    }
     /* --------------- footer ----- */
-
-    
-    footer{
-     margin-top: 175px;
+     footer{
+         margin-top: 175px;
     }
      .social ul>li {
          font-size: 35px;
     }
 }
- @media screen and (max-width: 576.02px) {
-     
-    footer{
-     margin-top: 80px;
+ @media screen and (max-width: 415.02px) {
+     footer{
+         margin-top: 80px;
     }
- }
+}
