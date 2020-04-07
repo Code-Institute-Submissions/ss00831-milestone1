@@ -78,9 +78,9 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 3. Responsive & Browser Test
 - Pass condition :
- 1. Must be resized to the image and content by the window sizes and resolutions
- 1. All links need to work like the Full test 
- 1. All images/contents/links must not be broken.
+    1. Must be resized to the image and content by the window sizes and resolutions
+    1. All links need to work like the Full test 
+    1. All images/contents/links must not be broken.
 
     ![resolutiontest](https://user-images.githubusercontent.com/53374745/78710444-ab186c00-7915-11ea-8dee-63a0416aeede.png)
 
@@ -90,10 +90,10 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 
 ## Deployment
+ 
+### My Milestone1 page address : https://ss00831.github.io/milestone1/
 
-My Milestone1 page address : https://ss00831.github.io/milestone1/
-
-- To deploy this page to GitHub Pages from its GitHub repository(https://github.com/ss00831/milestone1):
+### To deploy this page to GitHub Pages from its GitHub repository(https://github.com/ss00831/milestone1):
 1. From the menu items near the top of the page, select [Settings].
 2. Scroll down to the [GitHub Pages] section.
 3. [Source] - click the drop-down menu labelled None - select [Master Branch].
@@ -101,7 +101,7 @@ My Milestone1 page address : https://ss00831.github.io/milestone1/
  (If this step is failed, refresh the settings page and try again the "step 3".)
 5. If the deployment is succeeded, you can see a message as "Your site is published at https://ss00831.github.io/milestone1/". Try to retrieve the link to the deployed website.
 
-- How to run this project locally
+### How to run this project locally
 
 To clone this project from GitHub:
 1. Click [Clone or download] on the repository page.
