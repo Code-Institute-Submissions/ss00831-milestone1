@@ -156,3 +156,4 @@ git clone https://github.com/ss00831/milestone1
 - Hamburger menu : https://codepen.io/erikterwan/pen/EVzeRP
 - Cloning a repository : https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 - Resize image proportionally with CSS : https://www.geeksforgeeks.org/resize-image-proportionally-with-css/
+- Footer at bottom (When my content is short - Language : Korean) : https://blog.naver.com/nayayu92?Redirect=Log&logNo=221308763262
