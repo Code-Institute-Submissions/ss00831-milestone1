@@ -109,11 +109,9 @@
      margin-top: 15px;
      margin-bottom: 40px;
 }
- .rightalign{
-     text-align: right;
-     padding-right:inherit;
+ .helptext{
      color:#210852;
-     margin-bottom: 30px;
+     margin-bottom: 45px;
 }
 /*-------------------------------------------- mainpage : index.html -- */
  #indeximg{
@@ -399,9 +397,6 @@
     }
      .breadcrumb{
          padding: 0 1em 0 1em;
-    }
-     .rightalign{
-         text-align: center;
     }
     /* --------------- gallery.html ----- */
      .card img{
