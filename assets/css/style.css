@@ -6,9 +6,15 @@
      margin:0;
      width:100%;
      overflow-x: hidden;
+
+     height: 100%;
 }
  .container, .container-fluid {
      width: 100%;
+}
+.wrap{
+    min-height: 100%;
+    padding-bottom: 50px;
 }
 /*-------------------------------------------- Navbar (Menu) -- */
  .navbar{
@@ -291,10 +297,13 @@
 }
 /*-------------------------------------------- footer --*/
  footer{
-     margin-top: 80px;
      padding:5px;
      text-align: center;
      background-color: #d1f0d9;
+     width: 100%;
+     height: 160px;
+     margin-top: 0px;
+     line-height: 60px;
 }
  .social{
      margin-top:30px;
@@ -338,7 +347,7 @@
          width:auto;
     }
      footer{
-         margin-top: 290px;
+         margin-top: -50px;
     }
      .social{
          width:auto;
@@ -402,14 +411,9 @@
     }
     /* --------------- footer ----- */
      footer{
-         margin-top: 175px;
+         margin-top: 0px;
     }
      .social ul>li {
          font-size: 35px;
-    }
-}
- @media screen and (max-width: 415.02px) {
-     footer{
-         margin-top: 80px;
     }
 }
