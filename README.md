@@ -74,7 +74,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 2. Functional Test : All functional test cases (55 items) : Pass
 - Please refer the result.
-[Test Result] [rev03_testcases.xlsx](https://github.com/ss00831/milestone1/files/4454598/rev03_testcases.xlsx)
+    [Test Result] [rev03_testcases.xlsx](https://github.com/ss00831/milestone1/files/4454598/rev03_testcases.xlsx)
 
 3. Responsive & Browser Test
 - Pass condition :
@@ -88,7 +88,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
  
 ### My Milestone1 page address : https://ss00831.github.io/milestone1/
 
-### To deploy this page to GitHub Pages from its GitHub repository(https://github.com/ss00831/milestone1):
+### To deploy this page to GitHub Pages from its GitHub repository (https://github.com/ss00831/milestone1) :
 1. From the menu items near the top of the page, select [Settings].
 2. Scroll down to the [GitHub Pages] section.
 3. [Source] - click the drop-down menu labelled None - select [Master Branch].
@@ -98,14 +98,14 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 ### How to run this project locally
 
-To clone this project from GitHub:
+To clone this project from GitHub :
 1. Click [Clone or download] on the repository page.
 2. In the "Clone with HTTPS" section, click the copy button (next of the address) and copy the clone URL for the repository.
 3. Open Git Bash on your local IDE.
 4. (Optional) Change the current working directory to the location where you want the cloned directory to be made.
 5. Type "git clone", and then paste the URL you copied in Step 3.
 ```
-git clone https://github.com/ss00831/milestone1
+git clone https://github.com/ss00831/milestone1.git
 ```
 6. Press Enter and check the directory where you located on Step 4.
 
@@ -140,8 +140,8 @@ git clone https://github.com/ss00831/milestone1
  - https://thumbs.worthpoint.com/zoom/images1/1/1014/17/swedish-dala-wooden-rooster-sweden_1_341eb2afe4fd349642c14bd57160271b.jpg
  - https://thumbs.worthpoint.com/zoom/images1/1/1115/13/swedish-dala-rooster-wood-carving_1_b37220fee018855df8e0a9bccdae0063.jpg
 9. aboutus.html : 
- - 4 Flag icons:GoSquared, http://gosquared.com / https://www.iconspedia.com/pack/242-flags-icons-4146/
- - marker icon on the map image: Carlosjj, http://carlosjj.deviantart.com / https://www.iconspedia.com/icon/base-map-icon-41522.html
+ - 4 Flag icons : GoSquared, http://gosquared.com / https://www.iconspedia.com/pack/242-flags-icons-4146/
+ - marker icon on the map image : Carlosjj, http://carlosjj.deviantart.com / https://www.iconspedia.com/icon/base-map-icon-41522.html
  - the map image : google maps capture
 
 
