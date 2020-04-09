@@ -151,4 +151,6 @@ git clone https://github.com/ss00831/milestone1.git
 - Hamburger menu : https://codepen.io/erikterwan/pen/EVzeRP
 - Cloning a repository : https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 - Resize image proportionally with CSS : https://www.geeksforgeeks.org/resize-image-proportionally-with-css/
+- Card image in Bootstrap 4.x (for gallery.html, allgoods.html, dalahorsegood.html, roostergoods.html) : https://getbootstrap.com/docs/4.4/components/card/?#images
 - Footer at bottom (When my content is short - Language : Korean) : https://blog.naver.com/nayayu92?Redirect=Log&logNo=221308763262
+
