@@ -74,7 +74,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
 
 2. Functional Test : All functional test cases (55 items) : Pass
 - Please refer the result.
-[Test Result] (https://github.com/ss00831/milestone1/blob/78eab6217695991c34319808f4df27698faca728/assets/testing/rev03_testcases.xlsx)
+[Test Result] [rev03_testcases.xlsx](https://github.com/ss00831/milestone1/files/4454598/rev03_testcases.xlsx)
 
 3. Responsive & Browser Test
 - Pass condition :
@@ -82,12 +82,7 @@ I work at a souvenir shop in Gamla stan. My main customers are tourists from man
     1. All links need to work like the Full test 
     1. All images/contents/links must not be broken.
 
-    ![resolutiontest](https://user-images.githubusercontent.com/53374745/78710444-ab186c00-7915-11ea-8dee-63a0416aeede.png)
-
-- Main issue : When the screen width is precisely 576 px, the goods images have a size problem on allgoods.html, dalahorsegoods.html, and roostergoods.html  as below.
-
-    ![bug576px](https://user-images.githubusercontent.com/53374745/78710295-67bdfd80-7915-11ea-914c-a38de61f6182.PNG)
-
+    ![browsertest](https://user-images.githubusercontent.com/53374745/78868081-8b329680-7a42-11ea-9b15-7a15dc172e3f.PNG)
 
 ## Deployment
  

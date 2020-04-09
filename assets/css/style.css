@@ -367,13 +367,17 @@
          margin-right:auto;
          margin-top:15px;
     }
+     #dalahorsepic{    
+         margin-top: 15px;
+         margin-bottom:20px;
+    }
     /*-------------------------------------------- contactus.html -- */
      .message-form label, option, select, input{
          height: 80%;
-         width:80%;
+         width: 80%;
     }
      .message-form textarea{
-         width:80%;
+         width: 80%;
     }
      .message-form{
          margin-right: 0px;
@@ -385,9 +389,25 @@
     }
      .mainpage{
          padding-top: 6px;
-         padding-left:10px;
+         padding-left: 10px;
     }
+     
+    /* --------------- footer ----- */
+     footer{
+         margin-top: 0px;
+    }
+    .list-inline-item{
+     padding: 5px 5px 0px 5px;
+     font-size: 35px;
+    }
+}
+
+ @media screen and (max-width: 575.98px) {
     /* --------------- heading ----- */
+     .breadcrumb{
+         padding: 0 1em 0 1em;
+    }
+
      .section-heading{
          font-size: 24px;
          padding: 0 1em 0 1em;
@@ -395,19 +415,9 @@
      .name{
          font-size: 36px;
     }
-     .breadcrumb{
-         padding: 0 1em 0 1em;
-    }
-    /* --------------- gallery.html ----- */
+    /* --------------- gallery.html, allgoods.html, dalahorsegoods.html, roostergoods.html ----- */
      .card img{
-         min-width: 220px;
+         width: auto;
          height: auto;
     }
-    /* --------------- footer ----- */
-     footer{
-         margin-top: 0px;
-    }
-     .social ul>li {
-         font-size: 35px;
-    }
-}
+ }
